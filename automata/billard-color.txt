@@ -1,0 +1,209 @@
+// initiale Belegung
+111111111111111111111
+100000000000000000001
+100000000000000300001
+100000000000000000001
+100000000000000000001
+102000000000000000001
+100000000002000000001
+100000000000000000001
+100000000000000000001
+100000500000000000001
+100000000000000000001
+100000000000003000001
+100000000000000000001
+100000000000000000001
+100000000400000000001
+100000000000000000401
+100000000000000000001
+100000000000000000001
+100005000000000000001
+100000000000000000001
+111111111111111111111
+--
+// Regeln
+// nach links laufen
+xxxxx
+xx0xx
+xx04x
+xx0xx
+xxxxx
+>4
+// nach rechts laufen
+xxxxx
+xx0xx
+x20xx
+xx0xx
+xxxxx
+>2
+// nach oben laufen
+xxxxx
+xxxxx
+x000x
+xx5xx
+xxxxx
+>5
+// nach unten laufen
+xxxxx
+xx3xx
+x000x
+xxxxx
+xxxxx
+>3
+// gegen linke Mauer laufen
+xxxxx
+xxxxx
+140xx
+xxxxx
+xxxxx
+>2
+// gegen rechte Mauer laufen
+xxxxx
+xxxxx
+xx021
+xxxxx
+xxxxx
+>4
+// gegen obere Mauer laufen
+xx1xx
+xx5xx
+xx0xx
+xxxxx
+xxxxx
+>3
+// gegen untere Mauer laufen
+xxxxx
+xxxxx
+xx0xx
+xx3xx
+xx1xx
+>5
+// Kollisionen ueber Eck
+//   x-
+// -x
+xxx4x
+xx2xx
+xx0xx
+xxxxx
+xxxxx
+>3
+xxxxx
+xxxxx
+xx0xx
+xx4xx
+x2xxx
+>5
+// -x
+//   x-
+x2xxx
+xx4xx
+xx0xx
+xxxxx
+xxxxx
+>3
+xxxxx
+xxxxx
+xx0xx
+xx2xx
+xxx4x
+>5
+// |
+// x
+//  x
+//  |
+xxxxx
+3xxxx
+x50xx
+xxxxx
+xxxxx
+>2
+xxxxx
+xxxxx
+xx03x
+xxxx5
+xxxxx
+>4
+//  |
+//  x
+// x
+// |
+xxxxx
+xxxx3
+xx05x
+xxxxx
+xxxxx
+>4
+xxxxx
+xxxxx
+x30xx
+5xxxx
+xxxxx
+>2
+//-x 
+//  x
+//  |
+xxxxx
+2xxxx
+x50xx
+xxxxx
+xxxxx
+>2
+xxxxx
+xxxxx
+xx0xx
+xx2xx
+xxx5x
+>5
+//  |
+//  x
+//-x 
+xxx3x
+xx2xx
+xx0xx
+xxxxx
+xxxxx
+>3
+xxxxx
+xxxxx
+x30xx
+2xxxx
+xxxxx
+>2
+// |
+// x
+//  x-
+x3xxx
+xx4xx
+xx0xx
+xxxxx
+xxxxx
+>3
+xxxxx
+xxxxx
+xx03x
+xxxx4
+xxxxx
+>4
+//  x-
+// x
+// |
+xxxxx
+xxxx4
+xx05x
+xxxxx
+xxxxx
+>4
+xxxxx
+xxxxx
+xx0xx
+xx4xx
+x5xxx
+>5
+// Mauern bleiben stehen
+xxxxx
+xxxxx
+xx1xx
+xxxxx
+xxxxx
+>1
+// alles andere wird zu 0

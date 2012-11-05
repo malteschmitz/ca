@@ -1,0 +1,21 @@
+// initiale Belegung
+00000
+00100
+00100
+00100
+00000
+--
+// Regeln
+// neue Zelle entsteht
+xxx
+x0x
+xxx
+# x == 3
+>1
+// Zelle ueberlebt
+xxx
+x1x
+xxx
+# x == 2 || x == 3
+>1
+// alles andere wird zu 0

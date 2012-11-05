@@ -1,0 +1,42 @@
+#ca {
+  border-collapse: collapse;
+  background-color: white;
+}
+
+body {
+  background-color: #ddf;
+  font-family: sans-serif;
+}
+
+td.cell {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+}
+td.cell1 {
+  background-color: #ccc;
+}
+td.cell2 {
+  background-color: #000;
+}
+td.cell3 {
+  background-color: #f00;
+}
+td.cell4 {
+  background-color: #0f0;
+}
+td.cell5 {
+  background-color: #00f;
+}
+td.cell6 {
+  background-color: #ff0;
+}
+td.cell7 {
+  background-color: #ff0;
+}
+td.cell8 {
+  background-color: #0ff;
+}
+td.cell9 {
+  background-color: #f0f;
+}

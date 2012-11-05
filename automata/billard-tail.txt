@@ -1,0 +1,244 @@
+// initiale Belegung
+333333333333333333333
+300000000000000100003
+300000000000000200003
+300000000000000000003
+300000000000000000003
+312000000000000000003
+300000000012000000003
+300000000000000000003
+300000000000000000003
+300000200000000000003
+300000100000001000003
+300000000000002000003
+300000000000000000003
+300000000000000000003
+300000000210000000003
+300000000000000000213
+300000000000000000003
+300000000000000000003
+300002000000000000003
+300001000000000000003
+333333333333333333333
+--
+// Regeln
+// nach links laufen
+xxxxx
+xx0xx
+xx021
+xx0xx
+xxxxx
+>2
+// nach rechts laufen
+xxxxx
+xx0xx
+120xx
+xx0xx
+xxxxx
+>2
+// nach oben laufen
+xxxxx
+xxxxx
+x000x
+xx2xx
+xx1xx
+>2
+// nach unten laufen
+xx1xx
+xx2xx
+x000x
+xxxxx
+xxxxx
+>2
+// Schatten erzeugen
+xxxxx
+xxxxx
+xx2xx
+xxxxx
+xxxxx
+>1
+// gegen linke Mauer laufen
+xxxxx
+xxxxx
+321xx
+xxxxx
+xxxxx
+>2
+// gegen linke 2 laufen
+xxxxx
+xxxxx
+221xx
+xxxxx
+xxxxx
+>2
+// gegen rechte Mauer laufen
+xxxxx
+xxxxx
+xx123
+xxxxx
+xxxxx
+>2
+// gegen rechte 2 laufen
+xxxxx
+xxxxx
+xx122
+xxxxx
+xxxxx
+>2
+// gegen obere Mauer laufen
+xx3xx
+xx2xx
+xx1xx
+xxxxx
+xxxxx
+>2
+// gegen obere 2 laufen
+xx2xx
+xx2xx
+xx1xx
+xxxxx
+xxxxx
+>2
+// gegen untere Mauer laufen
+xxxxx
+xxxxx
+xx1xx
+xx2xx
+xx3xx
+>2
+// gegen untere 2 laufen
+xxxxx
+xxxxx
+xx1xx
+xx2xx
+xx2xx
+>2
+// Kollisionen ueber Eck
+//   x-
+// -x
+xxx21
+x12xx
+xx0xx
+xxxxx
+xxxxx
+>2
+xxxxx
+xxxxx
+xx0xx
+xx21x
+12xxx
+>2
+// -x
+//   x-
+12xxx
+xx21x
+xx0xx
+xxxxx
+xxxxx
+>2
+xxxxx
+xxxxx
+xx0xx
+x12xx
+xxx21
+>2
+// |
+// x
+//  x
+//  |
+1xxxx
+2xxxx
+x20xx
+x1xxx
+xxxxx
+>2
+xxxxx
+xxx1x
+xx02x
+xxxx2
+xxxx1
+>2
+//  |
+//  x
+// x
+// |
+xxxx1
+xxxx2
+xx02x
+xxx1x
+xxxxx
+>2
+xxxxx
+x1xxx
+x20xx
+2xxxx
+1xxxx
+>2
+//-x 
+//  x
+//  |
+0xxxx
+20xxx
+020xx
+x1xxx
+xxxxx
+>2
+xxxxx
+xxxxx
+xx0xx
+x120x
+xx020
+>2
+//  |
+//  x
+//-x 
+xx020
+x120x
+xx0xx
+xxxxx
+xxxxx
+>2
+xxxxx
+x1xxx
+020xx
+20xxx
+0xxxx
+>2
+// |
+// x
+//  x-
+020xx
+x021x
+xx0xx
+xxxxx
+xxxxx
+>2
+xxxxx
+xxx1x
+xx020
+xxx02
+xxxx0
+>2
+//  x-
+// x
+// |
+xxxx0
+xxx02
+xx020
+xxx1x
+xxxxx
+>2
+xxxxx
+xxxxx
+xx0xx
+x021x
+020xx
+>2
+// Mauern bleiben stehen
+xxxxx
+xxxxx
+xx3xx
+xxxxx
+xxxxx
+>3
+// alles andere wird zu 0

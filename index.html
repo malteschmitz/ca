@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>cellular automaton (CA)</title>
+<link rel="stylesheet" type="text/css" href="ca.css">
+</head>
+<body>
+<table id="ca"></table>
+<p>
+  <button id="step">Step</button>
+  <button id="play">Play</button>
+  <input type="text" id="interval" value="100" size="4">
+  &nbsp; &nbsp;
+  <button id="load">Load</button>
+</p>
+<textarea id="text" cols="100" rows="20"></textarea>
+<ul>
+  <li><a href="?billard-tail.txt">Billard mit Schwanz</a></li>
+  <li><a href="?billard-color.txt">buntes Billard</a></li>
+  <li><a href="?gof-glider.txt">Game of Life: Glider</a></li>
+  <li><a href="?gof-blinker.txt">Game of Life: Blinker</a></li>
+  <li><a href="?gof-gun.txt">Game of Life: Gun</a></li>
+</ul>
+<script src="js/d3.v2.js"></script>
+<script src="js/ca.js"></script>
+</body>
+</html>
