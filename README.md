@@ -5,7 +5,7 @@ This repository contains an interpreter for cellular automata written in
 JavaScript. It should work in all modern browsers supporting ECMAScript 5.
 
 A running version to play around with can be found on
-http://malteschmitz.github.com/ca
+http://malteschmitz.github.io/ca
 
 The interpreter is able to read files containing two parts seperated by --:
 * The first part contains the initial setup and needs to be q square matrix
